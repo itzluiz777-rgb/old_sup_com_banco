@@ -1,0 +1,56 @@
+```html
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/whey.css">
+</head>
+
+<body>
+
+    <div class="logo">
+        <img src="img/OLD.png">
+    </div>
+
+    <div class="registra">
+
+        <form action="php/cadastro.php" method="post">
+
+            <h2>Cria conta</h2>
+
+            <div class="bloco">
+
+                <img class="icon" src="img/user.png">
+                <input type="text" name="nome" placeholder="Nome" required>
+                <br>
+
+                <img class="icon" src="img/user.png">
+                <input type="text" name="login" placeholder="Email" required>
+                <br>
+
+                <img class="icon" src="img/user.png">
+                <input type="text" name="cpf" placeholder="CPF" required>
+                <br>
+
+                <img class="icon" src="img/padlock.png">
+                <input type="password" name="senha" placeholder="Senha" required>
+                <br>
+
+            </div>
+
+            <div class="b">
+                <input type="submit" name="b1" value="Criar">
+            </div>
+
+            <h5>já tem conta? <a href="Login.html">Login</a></h5>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

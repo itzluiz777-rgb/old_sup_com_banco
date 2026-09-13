@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>telacompra6</title>
+        <link rel="stylesheet" href="css/whey.css">
+        <script defer src="javascript/script.js"></script>
+    </head>
+    <body>
+    <div class="cima-session">
+         <div id="text"></div> 
+    </div>   
+      <div class="topo">
+        <div class="logo-session">
+            <img class="logo" src="img/OLD.png">
+            <a href="php/mostra_carrinho.php"><img class="carrinho-icon" src="img/logoico1.svg"></a>
+            <a href="Login.html"><img class="user-icon" src="img/logoico2.svg"></a>
+            <a href="Login.html"><img class="user-icon" src="img/logoico2.svg"></a>
+            <div class="search-box">
+               <input type="texte" class="search-text" placeholder="Pesquiser...">
+               <a class="search-btn">
+                <img class="loupe-white " src="img/lupa1.svg " width="40px" height="40px">
+                <img  class="loupe-verde" src="img/lupa2.svg" width="40px" height="40px">
+               </a>
+        </div>
+        </div>
+        <div class="nav">
+          <ul>
+              <li><a href="index.html">home</a></li>
+              <li><a href="2.html">whey</a></li>
+              <li><a href="3.html">Creatina</a></li>
+              <li><a href="4.html">Hipercalóricos</a></li>
+          </ul>
+       </div>
+    </div>
+    <div class="alinha-compra">
+    <div class="protudo">
+    <img src="img/Produtos - Old's Suplements/Creatinas/Max Titanium/Creatina1 - Max.png">
+     </div>
+     <form action="php/carrinho.php" method="post" >
+     <div class="protudocompra">
+         <h1>Creatina Max Titanium 300g</h1>
+         <h2>R$ 50,20</h2>
+         <h3>ate 2x de R$ 25,10</h3>
+         <input type="hidden" name="id" value="5">
+         <input type="hidden" name="nome" value="Creatina Max Titanium 300g">
+         <input type="hidden" name="preco" value="50.20">
+         <input type="hidden" name="imagem" value="img/ProdutosOlds/Creatinas/Max Titanium/Creatina1 - Max.png">
+         <input type="submit"  value="Adicionar ao carrinho">
+    </div>
+    </form>
+</div>
+      <div class="rodapetela">
+       <p>© 2026 Old Suplementos</p>
+       <p>Site feito por Luiz Hottavio e José Arthur</p>
+ </div>
+    </body>
+</html>
